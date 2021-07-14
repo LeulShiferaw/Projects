@@ -1,4 +1,5 @@
 #include "ttt.h"
+#include "testing.h"
 #include <iostream>
 
 using namespace std;
@@ -7,8 +8,13 @@ int main()
 {
 	try
 	{
+		
 		TTT ttt;
-		ttt.play_game();
+		ttt.play_ai_game();
+		/*Testing*/
+		/*
+		test_max_min();
+		*/
 	}
 	catch (exception e)
 	{

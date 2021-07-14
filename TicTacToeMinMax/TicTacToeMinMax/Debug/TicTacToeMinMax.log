@@ -1,2 +1,4 @@
-﻿  main.cpp
+﻿  ttt.cpp
+C:\Users\abiyl\Desktop\Projects\TicTacToeMinMax\TicTacToeMinMax\ttt.cpp(175,26): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
+C:\Users\abiyl\Desktop\Projects\TicTacToeMinMax\TicTacToeMinMax\ttt.cpp(231,26): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
   TicTacToeMinMax.vcxproj -> C:\Users\abiyl\Desktop\Projects\TicTacToeMinMax\Debug\TicTacToeMinMax.exe
