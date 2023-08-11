@@ -13,5 +13,6 @@ int main()
     {
         cerr << "Some exception" << endl;
     }
+
     return 0;
 }
