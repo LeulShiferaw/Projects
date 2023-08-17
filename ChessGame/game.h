@@ -11,4 +11,7 @@ class Game {
         Game(Game &&);
 
         void GameLoop();
+        void SinglePlayer();
+        void MultiPlayer();
+        std::string bestMoveStockfish();
 };

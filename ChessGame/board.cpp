@@ -634,6 +634,11 @@ std::string Board::chessNot(const std::pair<int, int> &pos) {
     return res;
 }
 
+std::pair<int, int> Board::fromChessNot(std::string str) {
+    if(str.size() < 2) return {-1, -1};
+    return {7-(str[1]-'1'), str[0]-'a'};
+}
+
 std::string Board::to_fen() {
     std::string fen = "";
     //Board notation

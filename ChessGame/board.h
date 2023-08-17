@@ -42,6 +42,7 @@ class Board
         bool is_valid_move(int, int);
         std::string to_fen();
         std::string chessNot(const std::pair<int, int> &);
+        std::pair<int, int> fromChessNot(std::string str);
         std::vector<std::pair<int, int>> generate_all_white();
         std::vector<std::pair<int, int>> generate_all_black();
         bool is_white_check();
