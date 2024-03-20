@@ -277,7 +277,7 @@ void Board::check_castle() {
         WQ = false;
     } else {
         auto poss_moves = generate_all_black();
-        auto check = { std::make_pair(7, 3), std::make_pair(7, 2) };
+        std::vector<std::pair<int, int>> check = { std::make_pair(7, 3), std::make_pair(7, 2) };
         for(auto &mov : poss_moves) {
             for(auto &m : check) {
                 if(mov == m) {
